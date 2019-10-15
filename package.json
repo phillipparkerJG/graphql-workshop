@@ -1,0 +1,49 @@
+{
+  "name": "graphql-workshop",
+  "version": "1.0.0",
+  "description": "Notes, presentation and example project for GraphQL workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sls offline start --stage dev",
+    "deploy": "sls deploy",
+    "codegen": "graphql-codegen --config codegen.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phillipparkerJG/graphql-workshop.git"
+  },
+  "author": "Phillip Parker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phillipparkerJG/graphql-workshop/issues"
+  },
+  "homepage": "https://github.com/phillipparkerJG/graphql-workshop#readme",
+  "devDependencies": {
+    "@graphql-codegen/add": "^1.0.7",
+    "@graphql-codegen/cli": "^1.0.7",
+    "@graphql-codegen/fragment-matcher": "1.0.7",
+    "@graphql-codegen/introspection": "^1.0.7",
+    "@graphql-codegen/typescript": "1.0.7",
+    "@graphql-codegen/typescript-resolvers": "1.0.7",
+    "@types/aws-lambda": "^8.10.17",
+    "@types/graphql": "^14.2.0",
+    "@types/node": "^11.13.0",
+    "graphql": "^14.2.1",
+    "graphql-tag": "^2.10.1",
+    "merge-graphql-schemas": "^1.5.8",
+    "prettier": "^1.18.2",
+    "serverless": "^1.51.0",
+    "serverless-offline": "^5.3.1",
+    "serverless-webpack": "^5.2.0",
+    "ts-loader": "^5.3.3",
+    "ts-node": "^8.0.3",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.6.2",
+    "webpack": "^4.29.6",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "apollo-server-lambda": "^2.6.2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cyclists": [
+    {
+      "name": "Phill",
+      "gender": "male",
+      "bike": {
+        "id": "abcd"
+      }
+    },
+    {
+      "name": "Pablo",
+      "gender": "male",
+      "bike": {
+        "id": "efgh"
+      }
+    },
+    {
+      "name": "Mark",
+      "gender": "male",
+      "bike": {
+        "id": "ijkl"
+      }
+    }
+  ]
+}

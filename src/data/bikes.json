@@ -1,0 +1,22 @@
+{
+  "bikes": [
+    {
+      "id": "abcd",
+      "make": "Ribble",
+      "color": "silver",
+      "season": "WINTER"
+    },
+    {
+      "id": "efgh",
+      "make": "Ribble",
+      "color": "black",
+      "season": "SUMMER"
+    },
+    {
+      "id": "ijkl",
+      "make": "Specilized",
+      "color": "black",
+      "season": "SUMMER"
+    }
+  ]
+}

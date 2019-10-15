@@ -1,0 +1,9 @@
+type Query {
+    getCyclist(name: String!): Cyclist
+}
+
+type Cyclist {
+    name: String
+    gender: String
+    bike: Bike
+}

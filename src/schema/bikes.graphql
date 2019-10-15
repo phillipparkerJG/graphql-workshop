@@ -1,0 +1,11 @@
+enum Seasons {
+    WINTER
+    SUMMER
+}
+
+type Bike {
+    id: ID!
+    make: String
+    color: String
+    season: Seasons
+}
