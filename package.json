@@ -44,6 +44,6 @@
     "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
-    "apollo-server-lambda": "^2.6.2"
+    "apollo-server-lambda": "^2.14.2"
   }
 }
